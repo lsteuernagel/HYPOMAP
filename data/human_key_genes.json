@@ -1,0 +1,4 @@
+{
+  "keyGenes_neuron": ["AGRP", "POMC", "NPY", "CARTPT", "PMCH", "GNRH1", "HCRT", "AVP", "VIP", "TRH", "CCK", "MC3R", "MC4R", "GLP1R", "GLP2R", "GIPR", "TAC3", "PDYN", "CRH", "SIM1", "OTP", "OXT", "KISS1", "GHRH", "NR5A1", "GHSR", "SST", "PNOC"],
+  "keyGenes_nonneuron": ["RBFOX3", "AGT", "OPALIN", "PECAM1", "LUM", "TAGLN", "CD3G", "F13A1", "TMEM119", "PDGFRA", "PLN", "COL23A1"]
+}

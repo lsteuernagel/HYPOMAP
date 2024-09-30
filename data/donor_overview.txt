@@ -1,0 +1,22 @@
+donor	sex	age	PMI.h	COD	Brain.Weight	BMI	Sectioned	FANS	Purpose	Slide	Dataset
+oYtkk	Female	79	12	Intracerebral haemorrhage	1240	29.5	NA	NA	ST & smFISH	5 & 6	Tadross
+JpLuT	Female	51	31	Motor Neurone Disease	1358	16.5	NA	NA	ST & smFISH	1 & 7	Tadross
+hp9Yr	Male	75	70	Motor Neurone Disease, Cerebrovascular disease	1465	16.6	NA	NA	ST	8	Tadross
+OgTiF	Male	73	102	"1a) Lower respiratory tract infection 1b) Motor Neurone Disease 2) Atrial fibrillation"	1543	missing	NA	NA	ST	3	Tadross
+bT5r4	Female	54	26	"1a) Aspiration pneumonia2) Multiple Sclerosis"	1446	41	NA	NA	ST	9	Tadross
+IbV8d	Female	95	45	OLD AGE AND HEART PROBLEMS	1191	missing	NA	NA	ST	4	Tadross
+q65KC	Female	86	65	BREAST CANCER	1178	missing	NA	NA	ST	2	Tadross
+TweV8	Female	59	11	Sarcoma NOS	1233	missing	N	Y	snRNAseq	NA	Tadross
+eXCJJ	Male	67	14	CholangioCa	1440	missing	N	Y	snRNAseq	NA	Tadross
+3u5kk	Female	63	21	multiple strokes, acute renal failure, pneumonia	1217	28	Y	N	snRNAseq	NA	Tadross
+znZv1	Male	83	38	Congestive cardiac failure, ischaemic heart disease, bipolar affective disorder	1124	22	N	N	snRNAseq	NA	Tadross
+buFpQ	Male	88	8	UTI, COPD	1167	18	Y	N	snRNAseq	NA	Tadross
+1C41i	Male	91	18	missing	1338	24	Y	N	snRNAseq	NA	Tadross
+f5sVM	Female	92	24	missing	1139	25	Y	N	snRNAseq	NA	Tadross
+tzan2	Female	94	43	PNEUMONIA, FRAILTY OF OLD AGE	1166	24	N	N	snRNAseq	NA	Tadross
+H18.30.002	Male	50	12	Unknown (likely cardiac based on circumstances of death)	missing	missing	NA	Y	snRNAseq	NA	Siletti
+H19.30.001	Male	42	8	Suicide	missing	missing	NA	Y	snRNAseq	NA	Siletti
+H19.30.002	Male	29	7.5	Pulmonary embolism 	missing	missing	NA	Y	snRNAseq	NA	Siletti
+XhOzq	Female	91	unknown	E41, E86, E48, I10.9, R54 (malnutrition, dehydration, hypertension, age related physical debility	missing	15.4	NA	NA	smFISH	NA	Tadross
+Ih9Da	Male	67	unknown	K70.4, K70.3, D64.9, J96.9 (alcoholic liver disease, anemia, respiratory failure)	missing	25.5	NA	NA	smFISH	NA	Tadross
+Jhhmm	Female	90	unknown	N17, E86, F03, I10, E11 (acute kidney failure, dehydration, unspecified dementia, primary hypertension, type II diabetes)	missing	24.6	NA	NA	smFISH	NA	Tadross

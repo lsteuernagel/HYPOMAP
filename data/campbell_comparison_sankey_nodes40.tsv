@@ -1,0 +1,62 @@
+name	group
+C4-411 Post-2 GLU-1 SALL3 PVALB	human_cluster
+NA_hs	human_cluster
+C4-166 Mid-1 GABA-7 TRABD2B	human_cluster
+C4-382 Mid-2 GABA-GLU-3 LEF1 IL1RAPL2	human_cluster
+C4-398 Mid-2 GLU-4 WNT7B HMCN1	human_cluster
+C4-377 Mid-2 GABA-GLU-3 PDGFD ALDH1A1	human_cluster
+C4-146 Mid-1 GABA-5 FOXD2 ROR1	human_cluster
+C4-160 Mid-1 GABA-6 IL13RA1 GHRH	human_cluster
+C4-355 Mid-2 GABA-GLU-1 RGS22 AGRP	human_cluster
+C4-359 Mid-2 GABA-GLU-1 RGS22 NDNF	human_cluster
+C4-63 Mid-1 GABA-1 BRS3	human_cluster
+C4-64 Mid-1 GABA-1 NR5A2	human_cluster
+C4-337 Mid-2 GLU-2 CALB1 SATB2	human_cluster
+C4-345 Mid-2 GLU-2 ARHGAP42 COL15A1	human_cluster
+C4-340 Mid-2 GLU-2 MEGF10 IGFBP7	human_cluster
+C4-321 Mid-2 GLU-1 ITGA2 LEF1	human_cluster
+C4-331 Mid-2 GLU-1 LHX9 HCRT	human_cluster
+C4-373 Mid-2 GABA-GLU-3 POMC PRDM12	human_cluster
+C4-388 Mid-2 GABA-GLU-3 PGR CALCR	human_cluster
+C4-387 Mid-2 GABA-GLU-3 PGR TRPC6	human_cluster
+C4-304 Mid-3 GLU-3 CD36 EBF1	human_cluster
+C286-112: Nms.Fam122b.Vipr2.GABA-2	mouse_cluster
+C286-114: Prr5l.Cck.Vipr2.GABA-2	mouse_cluster
+C286-139: Myo5b.Sox14.Lef1.GABA-1	mouse_cluster
+C286-141: Barhl2.Lef1.GABA-1	mouse_cluster
+C286-150: Dlx6os1.Ppp1r17.GABA-1	mouse_cluster
+C286-158: Vgll3.Tbx3.GABA-1	mouse_cluster
+C286-174: Trh.Nkx2-4.GABA-3	mouse_cluster
+C286-175: Ghrh.GABA-3	mouse_cluster
+C286-176: Serpina3n.Npy.Agrp.GABA-4	mouse_cluster
+C286-177: Acvr1c.Npy.Agrp.GABA-4	mouse_cluster
+C286-181: Il1rapl2.Otp.Sst.GABA-4	mouse_cluster
+C286-195: Slc6a3.Satb2.GABA-6	mouse_cluster
+C286-196: Nr5a2.Satb2.GABA-6	mouse_cluster
+C286-30: Gpr149.Unassigned.Fezf1.GLU-3	mouse_cluster
+C286-45: Rai14.Hmcn2.Gpr149.GLU-3	mouse_cluster
+C286-52: H2-Q2.Hmcn2.Gpr149.GLU-3	mouse_cluster
+C286-62: Nfia.Tcf4.GLU-3	mouse_cluster
+C286-66: Ntng2.Lef1.Mixed.GLU-4	mouse_cluster
+C286-73: Qrfp.Rfx4.GLU-4	mouse_cluster
+C286-75: Anxa2.Pomc.GLU-5	mouse_cluster
+C286-76: Glipr1.Pomc.GLU-5	mouse_cluster
+C286-78: Tac2.GLU-5	mouse_cluster
+C286-80: Gpc3.Bace2.GLU-5	mouse_cluster
+Rgs16/Vip	Campbell_cluster
+Th/Lef1	Campbell_cluster
+Gm8773/Tac1	Campbell_cluster
+Rgs16/Dlx1	Campbell_cluster
+Htr3b	Campbell_cluster
+Th/Cxcl12	Campbell_cluster
+Ghrh	Campbell_cluster
+Agrp/Gm8773	Campbell_cluster
+Agrp/Sst	Campbell_cluster
+NA_campbell	Campbell_cluster
+Nr5a1/Adcyap1	Campbell_cluster
+Fam19a2	Campbell_cluster
+Qrfp	Campbell_cluster
+Pomc/Anxa2	Campbell_cluster
+Pomc/Glipr1	Campbell_cluster
+Kiss1/Tac2	Campbell_cluster
+Slc17a6/Trhr	Campbell_cluster
