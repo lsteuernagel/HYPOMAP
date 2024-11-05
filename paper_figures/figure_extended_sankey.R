@@ -125,3 +125,16 @@ webshot::webshot(paste0(save_path,"sankey_clusters_campbell_human_",nlink,".html
 webshot::webshot(paste0(save_path,"sankey_clusters_campbell_human_",nlink,".html"),file=paste0(save_path,"sankey_clusters_campbell_human_",nlink,".pdf"), vwidth = 1000, vheight = 900)
 
 # I used a local script to export with webshot !!
+
+
+
+# Sankey diagram showing the overlap of clusters between human HYPOMAP (darkbluedark-blue, left), mouse HypoMap (light-blue, centre) and a mouse ARC reference atlas by Campbell et al {Campbell, 2017 #30} (orange, right).
+# In the left comparison, lines indicate conserved clusters between levels C4 and C286 and linewidth is approximately proportional to human ARC cell numbers (large clusters are capped at 1000 cells each).
+# Mouse clusters without a conserved human cluster are shown as thin lines labelled ‘(NA_hs’). In the right comparison, linewidth is proportional to the number of ARC reference cells in each C286 cluster.
+# Only ARC reference clusters with at least 30 cells in a mouse HypoMap cluster are included and cells without an annotation are shown as ‘NA_campbell’.
+
+# and the number of human cells for the human to mouse HYPOMAP comparison. Only Campbell ARH reference clusters with at least 30 cells in a mouse HypoMap cluster are included. 
+# ARHCampbell reference cells without an annotation are shown as ‘NA_campbell’. Mouse clusters without a conserved human cluster are shown as thin lines labelled ‘(NA_hs’). 
+
+
+
