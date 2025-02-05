@@ -2,7 +2,7 @@
 message("-----",Sys.time(),"01.Read.Files.R")
 
 # from terminal (when in project dir):
-# sbatch run_slurm.sh ~/Documents/r_scvi_v3.simg 01_read_data.R
+# sbatch run_slurm.sh ~/Documents/yourimage.sif tadross_processing/01_read_data.R
 
 ##########
 ### Load libs
@@ -19,6 +19,7 @@ library(scran)
 library(qs)
 #library(outliers)
 library(scuttle)
+library(dplyr)
 source("utility_functions.R")
 
 library(scUtils)
@@ -31,14 +32,13 @@ library(scUtils)
 opts <- workflow_options(project = "HuHy", out_path = "test/")
 opts$cores <- 56
 
-# raw_data_path = "/beegfs/scratch/bruening_scratch/lsteuernagel/data/yeo_human_data/human_nucseq/"
 raw_data_path = opts$data_path
 message("-----",Sys.time(),": Using path: ",raw_data_path)
 
 print(opts)
 
 # read features to excludes
-genes_to_exclude_file = "features_exclude_list2.json"
+genes_to_exclude_file = "data/features_exclude_list_all2.json"
 features_exclude_list= jsonlite::read_json(genes_to_exclude_file)
 features_exclude_list = unlist(lapply(features_exclude_list,function(x){if(is.list(x)){return(unlist(x))}else{return(x)}}))
 features_exclude_list = toupper(features_exclude_list)
@@ -49,42 +49,13 @@ features_exclude_list = toupper(features_exclude_list)
 
 message("-----",Sys.time(),": load metadata")
 
-metacolumns <-
-  read_csv(paste0(raw_data_path,"data/metadata_edit.csv"),
-           comment = "#",
-           col_types = cols_only(
-             paths = col_character(),
-             sample = col_character(),
-             donor = col_factor(),
-             batch = col_factor()
-           )
-  )
+sample_meta = read_delim("data/sample_metadata.txt",delim="\t")
+donor_metadata =  read_delim("data/donor_overview.txt",delim="\t")
 
-donor_metacolumns <- 
-  read_csv(paste0(raw_data_path,"data/donor_metadata_edit.csv"),
-           comment = "#",
-           col_types = cols(
-             age = col_integer(),
-             donor = col_factor(),
-             sex = col_factor()
-           )
-  )
-
-metacolumns <- left_join(metacolumns, donor_metacolumns, by = "donor")
-
+metacolumns <- left_join(sample_meta, donor_metadata %>% dplyr::select(donor, age), by = c("DonorID"="donor")) %>%
+  dplyr::select(paths = File, sample = SampleName, donor = DonorID, batch ,sex, age ) %>% as.data.frame()
 
 print(metacolumns)
-#metacolumns = metacolumns[1:2,]
-
-# skip this for now -- but should be fine
-# stopifnot(any(
-#   metacolumns$paths %in% list.files(
-#     path = raw_data_path,
-#     pattern = "*.h5",
-#     full.names = TRUE,
-#     recursive = TRUE
-#   )
-# ))
 
 ##########
 ### load counts
