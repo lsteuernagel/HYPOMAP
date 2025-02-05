@@ -1,6 +1,8 @@
 # HYPOMAP
 
-This repository contains the analysis scripts for the single-nucleus transcriptomics aspects of the human HYPOMAP dataset and paper.
+This repository contains the analysis scripts for the single-nucleus transcriptomics data of the human HYPOMAP publication:
+[A comprehensive spatio-cellular map of the human hypothalamus](https://www.nature.com/articles/s41586-024-08504-8)
+Tadross J.A., Steuernagel L., Dowsett G.K.C. et al. Nature, 2025 (doi.org/10.1038/s41586-024-08504-8)
 
 See here for the [spatial analysis](https://github.com/georgiedowsett/HYPOMAP)
 
